@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 五子棋 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/五子棋.res" /d "_DEBUG" /d "_AFXDLL" "F:\C++\五子棋\五子棋.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP969F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/五子棋.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\C++\五子棋\五子棋.cpp"
+"F:\C++\五子棋\MainFrm.cpp"
+"F:\C++\五子棋\五子棋Doc.cpp"
+"F:\C++\五子棋\五子棋View.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP969F.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP96A0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/五子棋.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"F:\C++\五子棋\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP96A0.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP96A1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/五子棋.pdb" /debug /machine:I386 /out:"Debug/五子棋.exe" /pdbtype:sept 
+".\Debug\五子棋.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\五子棋Doc.obj"
+".\Debug\五子棋View.obj"
+".\Debug\五子棋.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP96A1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+五子棋.cpp
+MainFrm.cpp
+五子棋Doc.cpp
+五子棋View.cpp
+F:\C++\五子棋\五子棋View.cpp(100) : error C2065: 'wzq' : undeclared identifier
+F:\C++\五子棋\五子棋View.cpp(100) : error C2109: subscript requires array or pointer type
+F:\C++\五子棋\五子棋View.cpp(100) : error C2109: subscript requires array or pointer type
+F:\C++\五子棋\五子棋View.cpp(105) : error C2065: 'm_bmwhite' : undeclared identifier
+F:\C++\五子棋\五子棋View.cpp(109) : error C2109: subscript requires array or pointer type
+F:\C++\五子棋\五子棋View.cpp(109) : error C2109: subscript requires array or pointer type
+F:\C++\五子棋\五子棋View.cpp(112) : error C2065: 'm_bmblack' : undeclared identifier
+Generating Code...
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+五子棋.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
